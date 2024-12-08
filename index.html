@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Call and Chat Buttons</title>
+    <style>
+        .whatsapp-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .whatsapp-button {
+            background-color: #25D366;  /* WhatsApp Green */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+    <div class="whatsapp-buttons">
+        <!-- Call Button -->
+        <a href="tel:+6305744475" class="whatsapp-button" target="_blank">
+            <span>📞 Call Us</span>
+        </a>
+        
+        <!-- WhatsApp Chat Button -->
+        <a href="https://wa.me/7997016012?text=Hello%20there!" class="whatsapp-button" target="_blank">
+            <span>💬 Chat with Us</span>
+        </a>
+    </div>
+</body>
+</html>
